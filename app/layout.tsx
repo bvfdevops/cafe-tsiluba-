@@ -8,6 +8,7 @@ import { Footer } from "@/components/layout/footer";
 import { FloatingActions } from "@/components/layout/floating-actions";
 import { StickyMobileCta } from "@/components/layout/sticky-mobile-cta";
 import { JsonLd } from "@/components/shared/json-ld";
+import { CoffeeBeansBackground } from "@/components/shared/coffee-beans-background";
 import { Toaster } from "@/components/ui/sonner";
 
 // Títulos: serif editorial con carácter.
@@ -83,8 +84,9 @@ export default function RootLayout({
       lang="es-CL"
       className={`${fraunces.variable} ${nunito.variable} ${caveat.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-background">
+      <body className="flex min-h-full flex-col">
         <JsonLd />
+        <CoffeeBeansBackground />
         <Header />
         <main className="flex-1 pb-16 sm:pb-0">{children}</main>
         <Footer />

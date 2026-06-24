@@ -146,7 +146,7 @@ export function buildOrderMessage(
   const total = lines.reduce((acc, l) => acc + l.qty * l.price, 0);
 
   const parts = [
-    `¡Hola ${siteConfig.name}! 😊 Quiero hacer un pedido para *retirar*:`,
+    `¡Hola ${siteConfig.name}! Quiero hacer un pedido para *retirar*:`,
     "",
     items,
     "",

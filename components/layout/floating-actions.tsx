@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { MessageCircle, ArrowUp } from "lucide-react";
 import { whatsappUrl } from "@/lib/site";
 import { cn } from "@/lib/utils";
+import { CartTrigger } from "@/components/cart/cart-trigger";
 
 export function FloatingActions() {
   const [showTop, setShowTop] = useState(false);
@@ -29,6 +30,8 @@ export function FloatingActions() {
       >
         <ArrowUp className="size-5" />
       </button>
+
+      <CartTrigger />
 
       <a
         href={whatsappUrl(

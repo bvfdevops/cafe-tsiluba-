@@ -26,7 +26,8 @@ export const siteConfig = {
   contact: {
     phoneDisplay: "+56 9 7242 2068",
     phoneRaw: "+56972422068",
-    whatsappNumber: "56972422068",
+    // Número temporal de destino para los pedidos/consultas por WhatsApp.
+    whatsappNumber: "56950306560",
     email: "cafe.tsiluba@gmail.com",
   },
 

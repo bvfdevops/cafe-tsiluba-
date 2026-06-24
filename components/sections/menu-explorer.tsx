@@ -8,6 +8,7 @@ import { menuCategories } from "@/lib/menu";
 import { resolveIcon } from "@/lib/icons";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
+import { AddToCart } from "@/components/cart/add-to-cart";
 
 export function MenuExplorer() {
   const [active, setActive] = useState<string>("all");
@@ -127,8 +128,11 @@ export function MenuExplorer() {
                           </Badge>
                         )}
                       </span>
-                      <span className="shrink-0 font-heading text-lg font-semibold text-brand">
-                        {formatPrice(item.price)}
+                      <span className="flex shrink-0 flex-col items-end gap-2">
+                        <span className="font-heading text-lg font-semibold text-brand">
+                          {formatPrice(item.price)}
+                        </span>
+                        <AddToCart item={{ name: item.name, price: item.price }} />
                       </span>
                     </li>
                   ))}

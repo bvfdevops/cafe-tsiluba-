@@ -9,6 +9,7 @@ import { FloatingActions } from "@/components/layout/floating-actions";
 import { StickyMobileCta } from "@/components/layout/sticky-mobile-cta";
 import { JsonLd } from "@/components/shared/json-ld";
 import { CoffeeBeansBackground } from "@/components/shared/coffee-beans-background";
+import { CartSheet } from "@/components/cart/cart-sheet";
 import { Toaster } from "@/components/ui/sonner";
 
 // Títulos: serif editorial con carácter.
@@ -92,6 +93,7 @@ export default function RootLayout({
         <Footer />
         <FloatingActions />
         <StickyMobileCta />
+        <CartSheet />
         <Toaster position="top-center" />
       </body>
     </html>

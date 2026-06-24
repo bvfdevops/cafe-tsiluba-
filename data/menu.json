@@ -1,0 +1,110 @@
+{
+  "currency": "CLP",
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "icon": "Coffee",
+      "blurb": "Café de especialidad preparado con dedicación.",
+      "items": [
+        { "name": "Espresso", "price": 1800 },
+        { "name": "Americano", "price": 2000 },
+        { "name": "Café Latte", "price": 3400, "featured": true },
+        { "name": "Café Mocca", "price": 3990 },
+        { "name": "Cappuccino", "price": 2890, "featured": true },
+        { "name": "Cappuccino Cream / Esencia", "price": 3400 },
+        { "name": "Cortado", "price": 2490 },
+        { "name": "Chocolate Caliente", "price": 3990 },
+        { "name": "Tetera", "price": 2490 }
+      ]
+    },
+    {
+      "id": "ice",
+      "name": "Ice",
+      "icon": "IceCreamCone",
+      "blurb": "Café frío para los días de sol.",
+      "items": [
+        { "name": "Ice Americano", "price": 3000 },
+        { "name": "Ice Latte", "price": 3500 },
+        { "name": "Ice Latte Esencia", "price": 4000, "featured": true },
+        { "name": "Ice Mocca", "price": 4500 },
+        { "name": "Vanilla Ice", "price": 4000 }
+      ]
+    },
+    {
+      "id": "bebidas-frias",
+      "name": "Bebidas Frías",
+      "icon": "CupSoda",
+      "blurb": "Refrescantes y naturales.",
+      "items": [
+        { "name": "Café Helado", "price": 4500 },
+        { "name": "Batido", "price": 4500 },
+        { "name": "Malteada", "price": 4500 },
+        { "name": "Limonada", "price": 3500 },
+        { "name": "Jugo Natural", "price": 2990 },
+        { "name": "Afogato", "price": 3000 },
+        { "name": "Bebidas Lata", "price": 1300 }
+      ]
+    },
+    {
+      "id": "pasteleria",
+      "name": "Pastelería",
+      "icon": "CakeSlice",
+      "blurb": "Repostería artesanal para acompañar cada momento.",
+      "items": [
+        { "name": "Torta Reina Ana", "price": 3600 },
+        { "name": "Torta Sacher", "price": 4000 },
+        { "name": "Torta Holandesa", "price": 3600 },
+        { "name": "Torta Tres Leches", "price": 3600 },
+        { "name": "Torta Cachito", "price": 3600 },
+        { "name": "Tiramisú", "price": 3600, "featured": true },
+        { "name": "Cheesecake", "price": 3800, "featured": true },
+        { "name": "Panqueque Naranja Chocolate", "price": 3600 },
+        { "name": "Carrot Cake", "price": 3600 },
+        { "name": "Kuchen Manzana", "price": 2900 },
+        { "name": "Kuchen Frutos Rojos", "price": 2900 },
+        { "name": "Kuchen Nuez", "price": 2900 },
+        { "name": "Pie de Limón", "price": 2900 }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "name": "Sandwiches",
+      "icon": "Sandwich",
+      "blurb": "Preparaciones exclusivas y abundantes.",
+      "items": [
+        { "name": "Mechada Luchín", "price": 5500, "featured": true },
+        { "name": "Mechada Vicente", "price": 5500 },
+        { "name": "Pollo Javito", "price": 5500 },
+        { "name": "Pollo D'Franco", "price": 5500 },
+        { "name": "Pollo Simone", "price": 5500 },
+        { "name": "Cabrito Gabriel", "price": 5500 }
+      ]
+    },
+    {
+      "id": "bolleria",
+      "name": "Bollería",
+      "icon": "Croissant",
+      "blurb": "Pequeños placeres horneados.",
+      "items": [
+        { "name": "Brownie Vegano", "price": 2000 },
+        { "name": "Mendocino", "price": 1500 },
+        { "name": "Macena", "price": 1500 },
+        { "name": "Salsa / Chantilly / Chubi", "price": 500 }
+      ]
+    },
+    {
+      "id": "helados",
+      "name": "Helados",
+      "icon": "IceCream2",
+      "blurb": "Helados artesanales en todos sus formatos.",
+      "items": [
+        { "name": "Simple", "price": 1650 },
+        { "name": "Doble", "price": 3000 },
+        { "name": "Familiar", "price": 7000 },
+        { "name": "Copa", "price": 4500 },
+        { "name": "Brownie + Helado", "price": 4990, "featured": true }
+      ]
+    }
+  ]
+}
